@@ -1,0 +1,3 @@
+export default {
+  DUPLICATED: 'ERR_DUPLICATED_ENTRY'
+}

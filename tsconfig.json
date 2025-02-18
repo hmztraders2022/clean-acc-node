@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/interfaces/*"
+      ],
+      "@configs/*": ["src/configs/*"],
+      "@constant/*": ["src/constant/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@entities/*": ["src/entities/*"],
+      "@enums/*": ["src/enums/*"],
+      "@errors/*": ["src/errors/*"],
+      "@interfaces/*": ["src/interfaces/*"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@migrations/*": ["src/migrations/*"],
+      "@mocks/*": ["src/mocks/*"],
+      "@routes/*": ["src/routes/*"],
+      "@seeds/*": ["src/seeds/*"],
+      "@services/*": ["src/services/*"],
+      "@ultilities/*": ["src/ultilities/*"],
+      "@validations/*": ["src/validations/*"]
+    },
+    "lib": [
+      "es2015", "es5", "es6", "dom"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
